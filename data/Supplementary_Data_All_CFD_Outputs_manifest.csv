@@ -1,0 +1,6 @@
+dataset,source_file,rows,columns
+baseline_simulation_outputs,cfd_simulation_outputs(5).csv,12000,30
+scenario_evaluations,cfd_scenario_evaluations(5).csv,88204,17
+stress_test_outputs,cfd_stress_test_outputs(5).csv,8,9
+choke_sensitivity,cfd_choke_sensitivity(5).csv,10,6
+full_choke_sensitivity_grid,cfd_choke_sensitivity_full_grid(4).csv,10,6
