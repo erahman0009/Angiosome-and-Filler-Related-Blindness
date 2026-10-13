@@ -16,7 +16,7 @@ from docx.oxml.ns import qn
 from docx.shared import Inches, Pt, RGBColor
 
 
-ROOT = Path("/workspace/scratch/70239158cbf2")
+ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "output" / "cfd_network_model"
 FIG = OUT / "figures"
 OUT.mkdir(parents=True, exist_ok=True)
