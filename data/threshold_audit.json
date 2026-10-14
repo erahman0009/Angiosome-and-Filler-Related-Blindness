@@ -1,0 +1,19 @@
+{
+  "threshold_combinations": 25,
+  "scenario_states": 8,
+  "profile_setting_evaluations": 2400000,
+  "OA_order_preserved": true,
+  "CRA_order_preserved": true,
+  "baseline_OA_range": [
+    0.22858333333333333,
+    0.28325
+  ],
+  "baseline_CRA_range": [
+    0.19541666666666666,
+    0.21641666666666667
+  ],
+  "reference_OA": 0.2415,
+  "reference_CRA": 0.20533333333333334,
+  "hydraulics_recomputed_for_thresholds": false,
+  "classification_only": true
+}

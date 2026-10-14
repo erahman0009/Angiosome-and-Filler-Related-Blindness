@@ -1,0 +1,39 @@
+Field,Unit,Definition
+profile_id,1,Zero-based virtual profile identifier; joins all scenario and choke records to baseline inputs
+route,text,Sampled facial-to-ophthalmic route family
+diameter_mm,mm,Sampled route diameter before continuity and choke modifiers
+length_mm,mm,Sampled route length before continuity modifier
+angle_deg,degree,Sampled branch angle in prescribed resistance multiplier
+force_N,N,Sampled syringe plunger force
+volume_ml,mL,Sampled injected bolus volume
+duration_s,s,Sampled injection duration
+eta0_Pa_s,Pa s,Sampled low-shear filler viscosity
+systolic_mmHg,mmHg,Sampled systolic pressure
+diastolic_mmHg,mmHg,Sampled diastolic pressure
+tone,1,"Sampled Beta(2.2,2.5) tone index"
+true_anastomosis,0 or 1,Sampled direct arterial continuity indicator
+choke_index,1,"Sampled Beta(1.8,3.8) index"
+pressure_coupling,1,Sampled syringe-to-lumen pressure coupling
+intravascular_fraction,1,Sampled bolus fraction available intravascularly and used in mixture closure
+inlet_pressure_mmHg,mmHg,MAP plus transmitted syringe pressure
+ophthalmic_pressure_mmHg,mmHg,MAP plus prescribed tone-dependent offset
+pressure_surplus_mmHg,mmHg,Inlet minus ophthalmic pressure boundary
+mu_eff_Pa_s,Pa s,Converged effective mixture viscosity
+hydraulic_resistance_Pa_s_m3,Pa s m^-3,Effective conduit resistance
+flow_ml_s,mL s^-1,"Converged flow, with negative pressure surplus clipped to zero"
+path_volume_ml,mL,Effective conduit dead volume
+transported_ml,mL,Minimum of flow-duration product and available bolus
+fill_fraction,1,Transported volume divided by route dead volume; can exceed one
+oa_entry,0 or 1,Positive surplus and transported volume at least 85% of route dead volume
+cra_exposure,0 or 1,OA entry and transported volume at least route plus terminal volume
+cra_fraction,1,"Terminal filling fraction clipped to [0,1]; used for descriptive bands"
+transit_uncapped_s,s,Route dead volume divided by hydraulic flow
+transit_s,s,Reported transit capped at 120 seconds; cap does not change classifications
+transit_capped,0 or 1,Uncapped transit reaches or exceeds 120 seconds
+reynolds,1,Reynolds number calculated with effective conduit diameter and mixture viscosity
+wall_shear_pa,Pa,Apparent wall shear stress under the reduced-order closure
+effective_radius_m,m,Radius after continuity and upstream choke modifiers
+effective_length_m,m,Length after continuity modifier
+angle_multiplier,1,1 + 0.85(1 - cos(angle))
+solver_iterations,count,First iteration meeting both relative-change criteria
+solver_residual,1,Final relative viscosity closure residual

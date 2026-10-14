@@ -1,0 +1,32 @@
+[
+  {
+    "sheet": "Baseline outputs",
+    "rows": 12000,
+    "columns": 38,
+    "maximum_absolute_numeric_difference": 512.0
+  },
+  {
+    "sheet": "Scenario evaluations",
+    "rows": 96000,
+    "columns": 17,
+    "maximum_absolute_numeric_difference": 8.881784197001252e-16
+  },
+  {
+    "sheet": "Stress-test outputs",
+    "rows": 8,
+    "columns": 10,
+    "maximum_absolute_numeric_difference": 4.996003610813204e-16
+  },
+  {
+    "sheet": "Choke summary",
+    "rows": 10,
+    "columns": 8,
+    "maximum_absolute_numeric_difference": 4.163336342344337e-16
+  },
+  {
+    "sheet": "Full choke grid",
+    "rows": 120000,
+    "columns": 15,
+    "maximum_absolute_numeric_difference": 8.881784197001252e-16
+  }
+]

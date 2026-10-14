@@ -1,0 +1,9 @@
+{
+  "baseline": 12000,
+  "scenario": 96000,
+  "choke": 120000,
+  "combined_records": 228018,
+  "tables_reconciled": true,
+  "scenario_ordering_preserved_after_laminar_exclusion": true,
+  "external_validation": false
+}

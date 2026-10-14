@@ -1,0 +1,36 @@
+{
+  "seed": 42,
+  "baseline_profiles": 12000,
+  "scenario_evaluations": 96000,
+  "choke_profile_evaluations": 120000,
+  "threshold_decision_evaluations": 2400000,
+  "tolerance": 1e-10,
+  "iteration_limit": 500,
+  "max_iterations_all_hydraulic_evaluations": 85,
+  "max_residual_all_hydraulic_evaluations": 5.266038719135208e-11,
+  "baseline_transport_max_error_ml": 2.7755575615628914e-17,
+  "tolerance_comparison_max_relative_flow_error": 1.8554369960039984e-08,
+  "tolerance_comparison_OA_changes": 0,
+  "tolerance_comparison_CRA_changes": 0,
+  "independent_brent_profiles": 200,
+  "max_brent_relative_flow_error": 2.0438159766763405e-10,
+  "zero_pressure_surplus_transport_nonzero": 0,
+  "baseline_re_median": 1.8621788307713169e-06,
+  "baseline_re_p95": 1.7497041598349687,
+  "baseline_re_p99": 101.27734180479037,
+  "baseline_re_above2000_n": 5,
+  "baseline_transit_capped_n": 6050,
+  "surrogate_test_accuracy": {
+    "oa_entry": 0.94,
+    "cra_exposure": 0.949
+  },
+  "external_validation_performed": false,
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8",
+    "scikit-learn": "1.8.0"
+  }
+}

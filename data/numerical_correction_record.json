@@ -1,0 +1,13 @@
+{
+  "original_solver": "eight fixed viscosity-flow update cycles",
+  "revised_solver": "convergence-controlled fixed-point iteration",
+  "identical_baseline_inputs": true,
+  "baseline_profiles": 12000,
+  "original_OA": 0.22675,
+  "revised_OA": 0.2415,
+  "original_CRA": 0.18891666666666668,
+  "revised_CRA": 0.20533333333333334,
+  "OA_changed_profiles": 177,
+  "CRA_changed_profiles": 197,
+  "validation_data_available": false
+}

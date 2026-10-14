@@ -1,0 +1,19 @@
+population,condition,volume_error_ml,OA_mismatches,CRA_mismatches
+scenario,S0 Baseline,2.7755575615628914e-17,0,0
+scenario,S1 Low-pressure boundary,2.7755575615628914e-17,0,0
+scenario,S2 High-pressure boundary,2.7755575615628914e-17,0,0
+scenario,S3 High-viscosity filler,2.7755575615628914e-17,0,0
+scenario,S4 No true anastomosis,4.336808689942018e-19,0,0
+scenario,S5 Forced arterial continuity,2.7755575615628914e-17,0,0
+scenario,S6 High upstream choke resistance,2.7755575615628914e-17,0,0
+scenario,S7 Route-specific high-risk extremes,2.7755575615628914e-17,0,0
+choke,"('upstream', np.float64(0.0))",2.7755575615628914e-17,0,0
+choke,"('upstream', np.float64(0.15))",2.7755575615628914e-17,0,0
+choke,"('upstream', np.float64(0.35))",2.7755575615628914e-17,0,0
+choke,"('upstream', np.float64(0.6))",2.7755575615628914e-17,0,0
+choke,"('upstream', np.float64(0.9))",1.3877787807814457e-17,0,0
+choke,"('downstream', np.float64(0.0))",2.7755575615628914e-17,0,0
+choke,"('downstream', np.float64(0.15))",2.7755575615628914e-17,0,0
+choke,"('downstream', np.float64(0.35))",2.7755575615628914e-17,0,0
+choke,"('downstream', np.float64(0.6))",2.7755575615628914e-17,0,0
+choke,"('downstream', np.float64(0.9))",2.7755575615628914e-17,0,0

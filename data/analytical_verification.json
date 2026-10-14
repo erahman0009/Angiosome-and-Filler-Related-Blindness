@@ -1,0 +1,6 @@
+{
+  "Newtonian_limit_profiles": 1000,
+  "maximum_relative_flow_error": 5.868656440989962e-16,
+  "analytical_limit_passed": true,
+  "external_validation": false
+}
